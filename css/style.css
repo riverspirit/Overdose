@@ -1,0 +1,98 @@
+root { 
+    display: block;
+}
+
+.error {
+    color: red;
+    border: 1px dotted burlywood;
+}
+
+.success {
+    color: green;
+    border: 1px dotted burlywood;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+#container {
+    margin: 10px;
+}
+
+#header {
+    background: #DFE6FE;
+    height: 50px;
+    padding: 10px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+.footerCopyright {
+    text-align: center;
+}
+
+#sidebar .menu {
+    border: 1px solid green;
+    width: 200px;
+    padding: 2px;
+    float: left;
+}
+
+#sidebar .menu li {
+    list-style-type: none;
+    background: #E7E6E5;
+    border-bottom: 1px solid #F8F8F7;
+    height: 20px;
+    padding: 3px;
+}
+
+#sidebar .menu li a{
+    text-decoration: none;
+}
+
+#content {
+    float: left;
+    padding: 5px;
+    width: 810px;
+}
+
+.dataTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.oddCol {
+    border: 1px dashed aliceblue;
+}
+
+.dataTable tr {
+    background: #E7E6E5;
+    border-bottom: 1px dashed aliceblue;
+}
+
+.dataTable tr:hover {
+    background: ghostwhite;
+}
+
+.tableHeader {
+    background: gainsboro !important;
+}
+
+.dataRow td {
+    padding: 3px;
+}
+
+.logo {
+    float: left;
+}
+
+.greetingText {
+    float: right;
+}
